@@ -422,7 +422,7 @@ namespace CZM::test
     }
 
     EXPECT_GT(lock_cancelled, 0U);
-    EXPECT_LT(lock_cancelled, num_threads);
+    EXPECT_LE(lock_cancelled, num_threads);
   }
 
   TEST(StdX_Mutex_stop_lock, deadlock_cancellation)
