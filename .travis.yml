@@ -5,8 +5,7 @@ compiler: gcc
 
 matrix:
   include:
-    - name: "Bionic GNU G++ (g++ 10.2.0)"
-      compiler: gcc
+    - name: "Bionic GNU G++ (g++ 10.1.0)"
       addons:
         apt:
           sources:
@@ -14,6 +13,7 @@ matrix:
           packages:
             - g++-10
       env:
+        - TRAVIS_WORKER_DOCKER_CPUS=4
         - MATRIX_EVAL="CC=gcc-10 && CXX=g++-10"
 
 before_install:
