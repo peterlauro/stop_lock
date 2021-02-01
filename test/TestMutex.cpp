@@ -1,14 +1,3 @@
-//---------------------------------------------------------------------------------------
-//                         Copyright (c) Carl Zeiss Meditec AG
-//                               - All Rights Reserved -
-//
-//                     THIS IS UNPUBLISHED PROPRIETARY SOURCE CODE OF
-//                                  CARL ZEISS MEDITEC AG
-//
-//                       This copyright notice does not evidence any
-//                    actual or intended publication of such source code.
-//---------------------------------------------------------------------------------------
-
 #include <mutex.h>
 
 //  GTEST
